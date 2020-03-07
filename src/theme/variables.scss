@@ -74,4 +74,68 @@
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+  
+  /** yyy **/
+  --ion-color-warning: #ffcd06;
+  --ion-color-warning-rgb: 255,205,6;
+  --ion-color-warning-contrast: #000000;
+  --ion-color-warning-contrast-rgb: 0,0,0;
+  --ion-color-warning-shade: #e0b405;
+  --ion-color-warning-tint: #ffd21f;
+
+  //youtu
+  --ion-color-youtu: #ed1414;
+  --ion-color-youtu-rgb: 237,20,20;
+  --ion-color-youtu-contrast: #ffffff;
+  --ion-color-youtu-contrast-rgb: 255,255,255;
+  --ion-color-youtu-shade: #d11212;
+  --ion-color-youtu-tint: #ef2c2c;
+
+  //face
+  --ion-color-face: #000051;
+  --ion-color-face-rgb: 0,0,81;
+  --ion-color-face-contrast: #ffffff;
+  --ion-color-face-contrast-rgb: 255,255,255;
+  --ion-color-face-shade: #000047;
+  --ion-color-face-tint: #1a1a62;
+  
+  //tw
+  --ion-color-tw: #0080c0;
+  --ion-color-tw-rgb: 0,128,192;
+  --ion-color-tw-contrast: #ffffff;
+  --ion-color-tw-contrast-rgb: 255,255,255;
+  --ion-color-tw-shade: #0071a9;
+  --ion-color-tw-tint: #1a8dc6;
+
+
+
+}
+
+.ion-color-youtu {
+  --ion-color-base: var(--ion-color-youtu) !important;
+  --ion-color-base-rgb: var(--ion-color-youtu-rgb) !important;
+  --ion-color-contrast: var(--ion-color-youtu-contrast) !important;
+  --ion-color-contrast-rgb: var(--ion-color-youtu-contrast-rgb) !important;
+  --ion-color-shade: var(--ion-color-youtu-shade) !important;
+  --ion-color-tint: var(--ion-color-youtu-tint) !important;
+}
+
+
+
+.ion-color-face {
+  --ion-color-base: var(--ion-color-face) !important;
+  --ion-color-base-rgb: var(--ion-color-face-rgb) !important;
+  --ion-color-contrast: var(--ion-color-face-contrast) !important;
+  --ion-color-contrast-rgb: var(--ion-color-face-contrast-rgb) !important;
+  --ion-color-shade: var(--ion-color-face-shade) !important;
+  --ion-color-tint: var(--ion-color-face-tint) !important;
+}
+
+.ion-color-tw {
+  --ion-color-base: var(--ion-color-tw) !important;
+  --ion-color-base-rgb: var(--ion-color-tw-rgb) !important;
+  --ion-color-contrast: var(--ion-color-tw-contrast) !important;
+  --ion-color-contrast-rgb: var(--ion-tw-face-contrast-rgb) !important;
+  --ion-color-shade: var(--ion-color-tw-shade) !important;
+  --ion-color-tint: var(--ion-color-tw-tint) !important;
 }
